@@ -9,7 +9,9 @@ public class ControlLibererEtal {
 	}
 
 	//TODO a completer
-
+	public boolean isVendeur(String nomVendeur) {
+		return controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur)!=null;
+	}
 	/**
 	 * 
 	 * @param nomVendeur
@@ -22,8 +24,8 @@ public class ControlLibererEtal {
 	 */
 	public String[] libererEtal(String nomVendeur) {
 		//TODO a completer
-		String[] donneesEtal = null;
-		return donneesEtal;
+		return controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur).etatEtal();
+		
 	}
 
 }

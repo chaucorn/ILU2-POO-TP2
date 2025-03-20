@@ -89,8 +89,8 @@ public class BoundaryLeVillage {
 		int choixUtilisateur = 0;
 		do {
 			StringBuilder question = new StringBuilder();
-			question.append("1 - je cherche un étal.\n");
-			question.append("2 - je veux libérer mon étal.\n");
+			question.append("1 - je cherche un Etal.\n");
+			question.append("2 - je veux liberer mon etal.\n");
 			question.append("3 - quitter l'application.");
 			choixUtilisateur = Clavier.entrerEntier(question.toString());
 			switch (choixUtilisateur) {
