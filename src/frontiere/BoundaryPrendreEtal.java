@@ -29,7 +29,7 @@ public class BoundaryPrendreEtal {
 		int nbProduit = Clavier.entrerEntier("Combien souhaitez-vous vendre?");
 		int numeroEtal = controlPrendreEtal.prendreEtal(nomVendeur, produit, nbProduit);
 		if (numeroEtal != -1) {
-			System.out.println("Le vendeur " + nomVendeur + " s'est installe a l'etal numero "+ numeroEtal+1);
+			System.out.println("Le vendeur " + nomVendeur + " s'est installe a l'etal numero "+ numeroEtal);
 		}
 	}
 }
