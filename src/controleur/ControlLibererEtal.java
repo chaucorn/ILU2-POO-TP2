@@ -37,7 +37,8 @@ public class ControlLibererEtal {
 			donneesEtal =  etalTrouve.etatEtal();	
 			System.err.println("Vous avez vendu " + donneesEtal[4] + " sur " + donneesEtal[3]
 					+ " " + donneesEtal[2] + ".");
-			System.out.println("Au revoir Bonemine, passez une bonne journée.");
+			System.out.println("Au revoir Bonemine, passez une bonne journee.");
+			etalTrouve.libererEtal();
 ;		}
 		return donneesEtal;
 		
